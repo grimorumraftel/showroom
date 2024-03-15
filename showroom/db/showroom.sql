@@ -112,15 +112,15 @@ INSERT INTO `role` (`id`, `role`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_jenis_produk`
+-- Table structure for table `tb_jenis_barang`
 
-CREATE TABLE `tb_jenis_produk` (
+CREATE TABLE `tb_jenis_barang` (
   `id` int(11) NOT NULL,
   `jenis_barang` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tb_jenis_produk`
+-- Dumping data for table `tb_jenis_barang`
 --
 
 INSERT INTO `tb_jenis_barang` (`id`, `jenis_barang`) VALUES
